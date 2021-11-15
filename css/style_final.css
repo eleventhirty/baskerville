@@ -1,0 +1,190 @@
+/*------ CSS Reset -   -----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;}
+
+/*------- Main styling, this section lays down ther foundations for the main structure of the content ----*/
+
+body {
+    background: #fdfdfd;
+    color: #333;
+    font-family: baskerville-urw, serif;
+    /*font-family: mrs-eaves, serif;
+    font-family: bookmania, serif;
+    font-family: warnock-pro-display, serif;*/
+    font-weight: 400;
+    font-style: normal;}
+
+section, header, footer { 
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 0}
+
+section{
+    margin-bottom: 4rem
+}
+
+.dark {background: #760071;}
+
+.light {
+    background: #FFE9C4;
+    padding: 3rem }
+    
+.light h2 {color: #333}
+    
+/*---- TYPOGRAPHY ----*/
+
+/* p {font-family: mr-eaves-sans, sans-serif;} */
+
+header h1, h3, p {
+    color: #fdfdfd;
+    padding: 2rem 0;
+    font-weight: normal;}
+
+header h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.827rem;
+    color: #FFEAFE;
+    margin-top: -5rem;
+    margin-bottom: -2rem;
+    text-indent: 1.5rem;}
+
+header p {
+    font-size: 1.3em;
+    padding-bottom: 4rem;
+    color: #fdfdfd; }
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #8f0040;}
+
+p, blockquote {
+    padding: 1rem 0;
+    line-height: 1.4;
+    color: #333}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 5rem;
+    padding-bottom: 0}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3rem 0 1rem 0;}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.999rem;
+    color: #760071;
+    hanging-punctuation: first;
+    text-indent: -0.75rem;}
+
+blockquote cite {
+    font-style: normal;
+    font-size: 1rem;
+    color: #333;}
+
+
+
+/*--- STYLING LINKS ---*/
+a {
+    color: #8f0040;
+    text-decoration: none;}
+
+a:visited {
+    color: #8f0040;}
+
+a:hover {
+    color: #333;
+    border-bottom: 1px dotted;}
+
+/*--- NAVIGATION ---*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #4F014C;
+    padding: 3em 0;
+    font-size: 0.75em;}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;}
+
+nav a {color: #fdfdfd}
+
+nav a:visited {
+    color: #fdfdfd}
+
+nav a:hover {
+    border-bottom: none;
+    color: #FFBBFC;
+    transition: all 0.3s ease-in-out;}
+
+/*----- IMAGES -----*/
+img {
+    display: block;
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*--- FOOTER ---*/
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 2em 0 8em 0;
+    margin: auto;
+    }
+
+footer p {color: #f7f7f7;}
+    
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 2em auto;}
+  
+  .connections a:hover svg path {
+        fill: #FFBBFC;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #FFBBFC;
+          transition: all 0.2s ease-in-out;}
+  
+
