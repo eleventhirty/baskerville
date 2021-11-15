@@ -1,15 +1,15 @@
-/*------ CSS Reset ------*/
+/*------ CSS Reset ------
 
 * {
     padding: 0;
     margin: 0;
     font-size: 100%;
-    font-weight: normal; /*-- Added to remove default bold from hreadings --*/
+    font-weight: normal; /*-- Added to remove default bold from headings --
     line-height: 1em;
 }
 
 
-/*----- Main structural styling -----*/
+/*----- Main structural styling -----
 
 body {
     background: #f7f7f7;
@@ -22,7 +22,7 @@ article {
     margin: auto;}
 
     
-/*---- TYPOGRAPHY ----*/
+/*---- TYPOGRAPHY ----
 h1, h2, h3 {
     font-weight: normal;
     color: #760071;
@@ -67,7 +67,7 @@ header p {
     font-size: 1.3rem;
 }
 
-/*--- STYLING LINKS ---*/
+/*--- STYLING LINKS ---
 a {
     color: #4F014C;
     text-decoration: none;
@@ -81,7 +81,7 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-/*--- NAVIGATION ---*/
+/*--- NAVIGATION ---
 nav {
     position: fixed;
     top: 0;
@@ -130,7 +130,7 @@ hr {
 
 
 
-/*--- FOOTER ---*/
+/*--- FOOTER ---
 footer {
     text-align: center;
     font-size: 0.707em;
