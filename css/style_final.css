@@ -39,7 +39,7 @@ section{
     
 /*---- TYPOGRAPHY ----*/
 
-/* p {font-family: mr-eaves-sans, sans-serif;} */
+p {font-family: mr-eaves-sans, sans-serif;} 
 
 header h1, h2, p {
     color: #f7f7f7;
