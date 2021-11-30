@@ -8,6 +8,10 @@ Straightforward markup of the text applying HTML to ensure the content is proper
 **November 15 2021**   
 Added links and our first CSS
 
-[Version 03](https://eleventhirty.github.io/baskerville/baskerville-final.html)    
+[Version 03](https://eleventhirty.github.io/baskerville/baskerville-three.html)    
 **November 22 2021**   
 Added web fonts and images.
+
+[Version 04](https://eleventhirty.github.io/baskerville/baskerville-four.html)    
+**November 29 2021**   
+Added CSS grid
