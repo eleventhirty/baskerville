@@ -14,9 +14,6 @@ body {
     background: #f7f7f7;
     color: #333;
     font-family: baskerville-urw, serif;
-    /*font-family: mrs-eaves, serif;
-    font-family: bookmania, serif;
-    font-family: warnock-pro-display, serif;*/
     }
 
 section, header, footer { 
@@ -36,6 +33,12 @@ section{
     padding: 3rem }
     
 .light h2 {color: #333}
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
     
 /*---- TYPOGRAPHY ----*/
 
@@ -185,3 +188,32 @@ footer {
     }
 
 footer p {color: #f7f7f7;}
+
+
+
+@media only screen and (max-width: 900px) {
+   
+    
+      }
+
+@media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px) {
+ 
+
+   p {font-size: 1.2rem}
+    h1 {font-size: 3.5rem}
+    header h2 {font-size: 1.75rem}
+    }
+    section, header, footer { 
+        width: 95%;
+        margin: auto;
+        padding: 0}
+
+/*
+@media only screen and (max-width: 900px) {
+    .examples {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      padding-bottom: 2em;}
