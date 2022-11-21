@@ -161,12 +161,11 @@ hr {
 /*-- Styling the footer --*/
 
 footer {
-    background: #030307;
+    background: #333333;
     text-align: center;
     font-size: 0.75rem;
     color: #f7f7f7;
-    padding: 4em 0 3em 0
-}
+    padding: 4em 0 3em 0}
 
 footer p {
     width: 80%;
