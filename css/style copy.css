@@ -15,7 +15,7 @@ body {
     font-family: baskerville-urw, serif;
 }
 
-section, header, footer {
+section, header { /*-- Remove footer --*/
     width: 80%;
     max-width: 600px;
     margin: auto;
@@ -78,7 +78,7 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: rgb(84, 2, 160);
+    background-color: rgba(84, 2, 160, .8);
     padding: 1.5rem 0;
     font-size: 0.75rem;
 }
@@ -139,6 +139,14 @@ img {
     max-width: 100%;
 }
 
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: rgb(84, 2, 160);
+    color: rgb(84, 2, 160);
+    border: 0 none;
+}
+
 /*-- Styling the footer --*/
 
 footer {
@@ -147,3 +155,51 @@ footer {
     padding-bottom: 4rem;
 }
 
+footer {
+    background: #030307;
+    text-align: center;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0;
+}
+
+footer p {
+    font-size: 0.7rem;
+    margin: auto;
+    width: 600px;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 1em auto;}
+  
+  .connections a:hover svg path {
+        fill: #D8C385;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #D8C385;
+          transition: all 0.2s ease-in-out;}
