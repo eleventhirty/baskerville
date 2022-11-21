@@ -17,7 +17,7 @@ body {
 
 section, header, footer {
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -110,14 +110,12 @@ table {
     border-collapse: collapse;
     border-spacing: 2px;
     margin-bottom: 2rem;
-    width: 100%;
-}
+    width: 100%;}
 
 caption {
     margin: 1.5em 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
-}
+    letter-spacing: 1px;}
 
 th {
     text-transform: uppercase;
@@ -125,14 +123,20 @@ th {
     text-align: left;
     color: #f7f7f7;
     background: rgb(84, 2, 160);
-    border: 2px solid #f7f7f7;
-}
+    border: 2px solid #f7f7f7;}
 
 th, td {padding: 0.4em;}
 
 table, td {
     background: rgb(233, 203, 251);
-    border: 2px solid #f7f7f7;
+    border: 2px solid #f7f7f7;}
+
+/*-- Images --*/
+img {
+    display: block;
+    margin: 4rem 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /*-- Styling the footer --*/
