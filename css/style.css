@@ -15,7 +15,7 @@ body {
     font-family: baskerville-urw, serif;
 }
 
-section, header, footer {
+section, header {
     width: 80%;
     max-width: 600px;
     margin: auto;
@@ -58,6 +58,12 @@ blockquote cite {
     font-size: 1.5rem;
     color: #333333;
 }
+
+.leader {
+    text-transform: uppercase;
+}
+
+.eaves {font-family: mr-eaves-sans, sans-serif;}
 
 /*-- Styling Links --*/
  a {
@@ -139,11 +145,66 @@ img {
     max-width: 100%;
 }
 
+.topimage {
+    margin: 3.5rem 0;
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: rgb(84, 2, 160);
+    color: rgb(84, 2, 160);
+    border: 0 none;
+}
+
+
 /*-- Styling the footer --*/
 
 footer {
+    background: #030307;
     text-align: center;
-    font-size: 0.8rem;
-    padding-bottom: 4rem;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0
 }
 
+footer p {
+    width: 80%;
+    margin: auto;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 1em auto;}
+  
+  .connections a:hover svg path {
+        fill: rgb(233, 203, 251);
+        transition: all 0.3s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  rgb(233, 203, 251);
+          transition: all 0.3s ease-in-out;}
